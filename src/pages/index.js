@@ -15,7 +15,11 @@ export default function Home() {
   return (
     <>
       <div id="smooth-wrapper" ref={mainRef}>
-        
+        <div id="smooth-content">
+          <header className='header'>
+            <h1 className='title'>GreenSock ScrollSmoother on a Next.js app</h1>
+          </header>
+        </div>
       </div>
     </>
   )
